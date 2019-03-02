@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>THE DIFFERENCE BETWEEN A STOCK AND A SHARE</pattern>
+    <template>“Shares” are the ownership certificates of a specific company — so you might say you have 50 shares of Facebook. Owning stock #comma on the other hand #comma is a more general term that means you own a number of shares in a company or multiple companies. For example #comma if you own shares of Facebook and Google #comma you own tech stock.
+But really #comma this is just semantics. People often use the terms interchangeably.
+Whether you call it a “share #comma” “equity #comma” or “stock #comma” it means the same thing: You have some ownership in a company’s assets and earnings.
+</template>
+</category>
+<category>
+    <pattern>_stocks & share *</pattern>
+    <template><srai>THE DIFFERENCE BETWEEN A STOCK AND A SHARE</srai></template>
+</category>
+<category>
+    <pattern>what is the difference between stocks and share</pattern>
+    <template><srai>THE DIFFERENCE BETWEEN A STOCK AND A SHARE</srai></template>
+</category>
+<category>
+    <pattern>WHAT’S A BOND</pattern>
+    <template>Bonds are issued by companies #comma states and governments (in both the U.S. and abroad) to help finance various projects. </template>
+</category>
+<category>
+    <pattern>what is bond</pattern>
+    <template><srai>WHAT's A BOND</srai></template>
+</category>
+<category>
+    <pattern>explain bond</pattern>
+    <template><srai>WHAT's A BOND</srai></template>
+</category>
+<category>
+    <pattern>DO I HAVE TO PAY TAXES ON MONEY I EARN FROM STOCKS</pattern>
+    <template>There are a couple of different ways to make money from investing that can then be taxed.</template>
+</category>
+</aiml>

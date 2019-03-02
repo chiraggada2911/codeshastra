@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hlab.fabrevealmenu:fab-reveal-menu:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fab-reveal-menu-1.0.4.aar/15147847ccfb9073965299efa947e21e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fab-reveal-menu-1.0.4.aar/15147847ccfb9073965299efa947e21e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hlab.fabrevealmenu/fab-reveal-menu/1.0.4/8c602d72349b79c8c835dee758c4be8ec86a7f6/fab-reveal-menu-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

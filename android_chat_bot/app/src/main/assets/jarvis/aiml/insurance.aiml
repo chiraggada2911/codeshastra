@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+    <category>
+    <pattern>What is life Insurance</pattern>
+    <template>Life insurance is a concept that aims to provide financial protection to the family members of the insured individual in case of an unfortunate eventuality such as the demise of the insured individual.</template>
+    </category>
+    
+     <category>
+    <pattern>Life insurance</pattern>
+    <template><srai>What is life Insurance</srai></template>
+    </category>
+    
+    <category>
+    <pattern>what do you mean by life insurance</pattern>
+    <template><srai>What is life Insurance</srai></template>
+    </category>
+    
+     <category>
+    <pattern>Why do I need insurance</pattern>
+    <template>Insurance aims to provide financial protection to an individual #comma one’s family and assets from unfortunate eventualities such as death #comma accident #comma illness #comma etc. or loss of assets. A classic insurance policy #comma i.e. a term plan #comma provides financial assistance to your family in the unfortunate event of your death.</template>
+  </category>
+  
+   <category>
+    <pattern>Need of insurance</pattern>
+    <template><srai>Why do I need insurance</srai></template>
+    </category>
+    
+     <category>
+    <pattern>what is the need of insurance</pattern>
+    <template><srai>Why do I need insurance </srai></template>
+    </category>
+  
+  <category>
+    <pattern>Can I change my nominee in the insurance policy</pattern>
+    <template>Yes. You as the life insurance policy holder can change your nomination any time before the date of maturity of the policy.</template>
+  </category>
+  
+    <category>
+    <pattern> Can the nominee be changed in insurance policy</pattern>
+    <template><srai>Can I change my nominee in the insurance policy </srai></template>
+    </category>
+  
+  
+  <category>
+    <pattern>Can a minor be the nominee of an insurance policy</pattern>
+    <template> Yes #comma a minor can be the nominee of a policy. However #comma he or she must have a legal guardian in the form of an appointee.</template>
+  </category>
+  
+  
+  <category>
+    <pattern>Are there any advantages to buying insurance at an early age</pattern>
+    <template>Yes. The premium paid on the insurance policy is mainly dependent on the age of the policy holder and the tenure of the policy. The younger the policy holder #comma the lower is the amount of insurance premium.  </template>
+  </category>
+  
+  <category>
+    <pattern>Advantages of buying insurance at early age</pattern>
+    <template><srai>Are there any advantages to buying insurance at an early age</srai></template>
+  </category>
+  
+ <category>
+    <pattern>What are the risks in Insurance Products</pattern>
+    <template>The risk of an insurance product would depend on the type of product. Largely insurance products are of two types and the associated risks are stated broadly.</template>
+  </category> 
+
+ <category>
+    <pattern>What is health insurance</pattern>
+    <template>Health insurance refers to protection against the costs of hospital and medical care or lost income arising from an illness or injury.</template>
+  </category>
+  
+   <category>
+    <pattern> Health insurance</pattern>
+    <template><srai>What is health insurance </srai></template>
+  </category>
+  
+  <category>
+    <pattern> Explain Health insurance</pattern>
+    <template><srai>What is health insurance </srai></template>
+  </category>
+  
+  
+</aiml>

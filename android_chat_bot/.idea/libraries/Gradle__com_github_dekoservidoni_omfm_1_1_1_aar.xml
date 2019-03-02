@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.dekoservidoni:omfm:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/omfm-1.1.1.aar/eedd37f2711eb54174b0f0fc329a7bd2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/omfm-1.1.1.aar/eedd37f2711eb54174b0f0fc329a7bd2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dekoservidoni/omfm/1.1.1/8b144538d21d13e36491444a7720215ab34bb622/omfm-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

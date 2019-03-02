@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Which is the best bank to borrow</pattern>
+	    <template>In broad terms #comma the best bank to borrow a home loan is the one that offers you the cheapest interest rate. However #comma it is after doing rounds of calculations that you would be able to find out which bank is best-suited for your individual requirements. </template>
+    </category>
+    <category>
+        <pattern>which bank to borrow money</pattern>
+        <template><srai>Which is the best bank to borrow</srai></template>
+    </category>
+    <category>
+        <pattern>Can I repay my loan in cash</pattern>
+        <template>It is only through online channels that scheduled banks allow you to repay your loan. However #comma there have been instances where banks have recovered outstanding dues in cash.</template>
+    </category>
+    <category>
+        <pattern>Do my age and occupation matter</pattern>
+        <template>Your age and your income are the primary criteria for the bank to decide your credit eligibility. For instance #comma a bank would be more willing to a younger person #comma earning a stable monthly salary. Such profiles have lower risk exposure.  </template>
+    </category>
+    <category>
+        <pattern>will my age and buisness matter</pattern>
+        <template><srai>Do my age and occupation matter</srai></template>
+    </category>
+    <category>
+        <pattern>Do banks offer me what I ask for</pattern>
+        <template>The answer is no. Banks generally offer only 80 per cent of the total worth of the property as loan. Further #comma the amount you could borrow from the bank is decided only after banks carry out a technical valuation of the property. If you are asking for a loan of Rs 30 lakh while it is worth only Rs 25 lakh according to the bank's estimates #comma it would offer you only Rs 20 lakh as loan.</template>
+    </category>
+    <category>
+        <pattern>will bank give what i want</pattern>
+        <template><srai>Do banks offer me what I ask for</srai></template>
+    </category>
+    <category>
+        <pattern>can i take multiple loans</pattern>
+        <template>You can simultaneously apply for other loans #comma including car loans and personal loans #comma while you are re-paying a home loan. However #comma banks will thoroughly examine you repayment capability before issuing you a loan.</template>
+    </category>
+    <category>
+        <pattern>can i have multiple loans</pattern>
+        <template><srai>can i take multiple loans</srai></template>
+    </category>
+    <category>
+        <pattern>_ muliple loans *</pattern>
+        <template><srai>can i take multiple loans</srai></template>
+    </category>
+    
+</aiml>

@@ -1,0 +1,10 @@
+0,Which is the best bank to borrow,*,*,In broad terms #comma the best bank to borrow a home loan is the one that offers you the cheapest interest rate. However #comma it is after doing rounds of calculations that you would be able to find out which bank is best-suited for your individual requirements.,loan.aiml
+0,which bank to borrow money,*,*,<srai>Which is the best bank to borrow</srai>,loan.aiml
+0,Can I repay my loan in cash,*,*,It is only through online channels that scheduled banks allow you to repay your loan. However #comma there have been instances where banks have recovered outstanding dues in cash.,loan.aiml
+0,Do my age and occupation matter,*,*,Your age and your income are the primary criteria for the bank to decide your credit eligibility. For instance #comma a bank would be more willing to a younger person #comma earning a stable monthly salary. Such profiles have lower risk exposure.  ,loan.aiml
+0,will my age and buisness matter,*,*,<srai>Do my age and occupation matter</srai>,loan.aiml
+0,Do banks offer me what I ask for,*,*,The answer is no. Banks generally offer only 80 per cent of the total worth of the property as loan. Further #comma the amount you could borrow from the bank is decided only after banks carry out a technical valuation of the property. If you are asking for a loan of Rs 30 lakh while it is worth only Rs 25 lakh according to the bank's estimates #comma it would offer you only Rs 20 lakh as loan.,loan.aiml
+0,will bank give what i want,*,*,<srai>Do banks offer me what I ask for</srai>,loan.aiml
+0,can i take multiple loans,*,*,You can simultaneously apply for other loans #comma including car loans and personal loans #comma while you are re-paying a home loan. However #comma banks will thoroughly examine you repayment capability before issuing you a loan.,loan.aiml
+0,can i have multiple loans,*,*,<srai>can i take multiple loans</srai>,loan.aiml
+0,_ muliple loans *,*,*,<srai>can i take multiple loans</srai>,loan.aiml
