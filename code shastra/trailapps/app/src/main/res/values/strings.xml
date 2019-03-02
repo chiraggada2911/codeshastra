@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DirectOnTrack</string>
+    <string name="your_data_has_been_generated_n_show_this_qr_code_at_ticket_window">Your data has been generated.  Show this QR code at Ticket WIndow</string>
+</resources>

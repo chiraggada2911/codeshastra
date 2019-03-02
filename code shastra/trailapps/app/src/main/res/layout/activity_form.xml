@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".FormActivity"
+    >
+
+        <TextView
+            android:id="@+id/Form_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="Name"
+            android:textSize="35dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/To_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Form_name_id"
+            android:layout_marginTop="20dp"
+            android:text="TO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/To_Starting_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Form_name_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Malad"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/From_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/To_Starting_form"
+            android:layout_marginTop="12dp"
+            android:text="FROM"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/From_Ending_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/To_Starting_form"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Vile PARLE"
+            android:textSize="40dp" />
+
+        <RelativeLayout
+            android:id="@+id/Radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/From_Ending_form"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/child_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Select Class" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/radio_first"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="First CLass" />
+
+                    <RadioButton
+                        android:id="@+id/radio_second"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Second Class">
+
+                    </RadioButton>
+                </RadioGroup>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/child_rel_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/child_rel"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Period" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Monthly" />
+
+                    <RadioButton
+                        android:id="@+id/radio_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yearly">
+
+                    </RadioButton>
+                </RadioGroup>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Form_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Radio_group"
+            android:layout_centerHorizontal="true"
+            android:text="Submit"
+
+            />
+    </RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Student Login"
+
+        android:layout_marginTop="40dp"
+        android:id="@+id/ttiletextlogin"
+        android:textAllCaps="true"
+        android:textColor="@color/colorwhite"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/contextrel">
+
+        <EditText
+            android:id="@+id/edittextlogin"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rooundedefittext"
+            android:hint="USER ID"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorpurle"
+            android:textColorHint="@color/colorpurle"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editpasslogin"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/edittextlogin"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rooundedefittext"
+            android:hint="Password"
+            android:lineSpacingExtra="8sp"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/colorpurle"
+            android:textColorHint="@color/colorpurle"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editpasslogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounder_edittext_yellow"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="@color/colorpurle"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

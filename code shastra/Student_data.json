@@ -1,0 +1,36 @@
+{
+  "user": {
+    "001": {
+      "password": "001",
+      "clgId": "A1",
+      "source": "Dahisar",
+      "name": "chirag",
+      "clg": "D.J.Sanghvi College of Engineering",
+      "clgstn": "VileParle"
+    },
+    "002": {
+      "password": "002",
+      "clgId": "A2",
+      "source": "Virar",
+      "name": "Jatin",
+      "clg": "S.P.I.T",
+      "clgstn": "Andheri"
+    },
+    "003": {
+      "password": "003",
+      "clgId": "A1",
+      "source": "Dadar",
+      "name": "Aashuli",
+      "clg": "D.J.Sanghvi College of Engineering",
+      "clgstn": "VileParle"
+    },
+    "004": {
+      "password": "004",
+      "clgId": "A4",
+      "source": "Malad",
+      "name": "Manan",
+      "clg": "K.J.Somaiya College of Engineering",
+      "clgstn": "Vidyavihar"
+    }
+  }
+}

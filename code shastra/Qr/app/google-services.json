@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "335077050972",
+    "firebase_url": "https://loginrailway-53a61.firebaseio.com",
+    "project_id": "loginrailway-53a61",
+    "storage_bucket": "loginrailway-53a61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335077050972:android:b19f5062329065e3",
+        "android_client_info": {
+          "package_name": "com.example.qr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335077050972-ftpt0mi809g3fgs75bd4bgr477q3b42c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qr",
+            "certificate_hash": "acf71eae40e376f03b7f309ebf69d007bf553a31"
+          }
+        },
+        {
+          "client_id": "335077050972-577lbme9b6ulq8d5urfhfpcrmp2jpb2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoSANA2wm6mnl-ZamukaePUqRBgDXWcxY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335077050972-577lbme9b6ulq8d5urfhfpcrmp2jpb2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

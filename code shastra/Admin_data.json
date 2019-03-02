@@ -1,0 +1,20 @@
+{
+  "Admin": {
+    "A1": {
+      "password": "A1",
+      "Name": "Vijay"
+    },
+    "A2": {
+      "password": "A2",
+      "Name": "Kaivan"
+    },
+    "A3": {
+      "password": "A3",
+      "Name": "Aashish"
+    },
+    "A4": {
+      "password": "A4",
+      "Name": "Sandesh"
+    }
+  }
+}
